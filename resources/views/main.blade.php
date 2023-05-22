@@ -56,6 +56,12 @@
       </div>
 </a>
 
+<a href="team" >
+      <div class="team">
+        <div class="time-table-child"></div>
+        <b class="mst-result1" style="margin-top: 10px;font-size: 25px;font-weight: bold;"><center>Developer Team</center></b>
+      </div>
+</a>
 
 
       <div class="mst-result2">

@@ -207,3 +207,15 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
+
+
+.team {
+  position:absolute;
+  top: 1410px;
+  left: 56px;
+  width: 256px;
+  height: 61px;
+  color:black;
+  font-size:25px;
+  text-align: center;
+}
