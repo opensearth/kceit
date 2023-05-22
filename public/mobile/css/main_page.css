@@ -1,0 +1,209 @@
+.android-large-1-child,
+.back-ground-2-icon {
+  position: absolute;
+  top: 806px;
+  left: 0;
+  width: 100vw;
+  height: 684px;
+}
+.android-large-1-child {
+  top: 0;
+  background-color: #0d0c0c;
+  width: 100vw;
+  height: 89px;
+}
+.android-large-1-item,
+.background-1-icon {
+  position: absolute;
+  top: 89px;
+  left: 0;
+  width: 100vw;
+}
+.background-1-icon {
+  height: 717px;
+  object-fit: cover;
+}
+.android-large-1-item {
+  background-color: #161414;
+  height: 707px;
+  opacity: 0.5;
+  background-size: cover;
+  background-position: center;
+}
+.android-large-1-inner {
+  position: absolute;
+  top: 252px;
+  left: 135px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.aryan {
+  position: absolute;
+  top: 262px;
+  left: 33px;
+  font-size: 12px;
+  text-align: left;
+  display: inline-block;
+  width: 199px;
+  height: 180px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  mix-blend-mode: normal;
+}
+.image-1-icon,
+.opens {
+  position: absolute;
+  top: 13px;
+}
+.image-1-icon {
+  left: 271px;
+  width: 45px;
+  height: 63px;
+  object-fit: cover;
+}
+.opens {
+  left: 100px;
+  font-size: 45px;
+}
+.welcome {
+  margin: 0;
+  font-size: 60px;
+}
+.in,
+.opens1 {
+  margin: 0;
+}
+.opens1 {
+  font-size: 82px;
+}
+.span {
+  font-size: var(--font-size-21xl);
+}
+.kciet {
+  margin: 0;
+  font-size: 44px;
+}
+.welcome-in-opens-container {
+  position: absolute;
+  top: 159px;
+  left: 36px;
+}
+.time-table-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color:white;
+  color:black;
+  width: 256px;
+  height: 61px;
+}
+.mst-result,
+.time-table {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+}
+.time-table {
+  top: 1104px;
+  left: 49px;
+  width: 256px;
+  height: 61px;
+}
+.attdance,
+.mst-result1 {
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  color:black;
+}
+.attdance {
+  top: 1232px;
+  left: 56px;
+  width: 256px;
+  height: 61px;
+}
+
+.professor {
+  position:absolute;
+  top: 1332px;
+  left: 56px;
+  width: 256px;
+  height: 61px;
+  color:black;
+  font-size:25px;
+  text-align: center;
+}
+.mst-result2,
+.mst-result3 {
+  color:black;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+.mst-result2 {
+  top: 964px;
+  left: 52px;
+  width: 256px;
+  height: 61px;
+  color:black;
+}
+.search {
+  position: absolute;
+  top: 5px;
+  left: 62px;
+  color:black;
+}
+.search-button,
+.text-box {
+  position: absolute;
+  top: 639px;
+  left: 49px;
+  width: 256px;
+  height: 61px;
+  border-radius: 60px;
+}
+.text-box {
+  top: 528px;
+  left: 15px;
+  background-color: #d9d9d9;
+  width: 322px;
+  height: 65px;
+}
+.rectangle-div,
+.select-options {
+  position: absolute;
+  top: 850px;
+  left: 36px;
+}
+.rectangle-div {
+  top: 1485px;
+  left: 0;
+  background-color: #39225e;
+  width: 100vw;
+  height: 150px;
+}
+.illuminati-team {
+  font-size: 25px;
+}
+.developed-by-illuminati-container {
+  position: absolute;
+  top: 1547px;
+  left: 46px;
+  display: inline-block;
+  width: 270px;
+  height: 172px;
+  font-size: 25px;
+}
+.android-large-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1619px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

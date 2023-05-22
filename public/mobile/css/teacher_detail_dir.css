@@ -1,0 +1,47 @@
+.title-box-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0d0c0c;
+    width: 100vw;
+    height: 89px;
+  }
+  .image-1-icon,
+  .opens {
+    position: absolute;
+    top: 13px;
+  }
+  .image-1-icon {
+    left: 271px;
+    width: 45px;
+    height: 63px;
+    object-fit: cover;
+  }
+  .opens {
+    left: 100px;
+  }
+  .background-black,
+  .title-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 89px;
+  }
+  .background-black {
+    top: 86px;
+    background-color: #1e1e1e;
+    height: 880px;
+  }
+  .android-large-1 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: auto;
+   
+    text-align: center;
+    font-size: 45px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  
