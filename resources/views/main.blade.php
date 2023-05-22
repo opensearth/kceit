@@ -23,7 +23,7 @@ Explore the power of KCEIT, the ultimate companion for KC Group students. Experi
 
 <meta name="keywords" content="KCEIT , OpenS KCEIT , HPTU , hptu , kceit , opens, kceit portal , mst result , attendance , Faculty Direcotry , Developer Team">
 
-<meta property="og:image" content="/public/images/logo.png">
+<meta property="og:image" content="https://kceit.web3o.cloud/images/logo.png">
 
 <meta property="og:site_name" content="kceit.web3o.cloud">
 
