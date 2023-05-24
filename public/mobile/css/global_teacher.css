@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-inter: Inter;
+  
+    /* font sizes */
+    --font-size-4xs: 9px;
+    --font-size-mid: 17px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #1a1a1a;
+  }
+  body {
+    background-color: #1e1e1e;
+  }
+  
+  

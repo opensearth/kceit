@@ -42,3 +42,7 @@ Route::get('/mst_query',[teacher_deatil::class,'mst_query']);
 //see team member
 Route::get('/team',[teacher_deatil::class,'team']);
 
+//register comaplint
+Route::get('/complaint',[teacher_deatil::class,'complaint']);
+
+Route::post('/complaint',[teacher_deatil::class,'reg_comp']);

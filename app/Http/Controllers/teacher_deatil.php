@@ -96,4 +96,30 @@ class teacher_deatil extends Controller
     }
     
 
+    function complaint(){
+        return view("complaint");
+    }
+
+    function reg_comp(Request $req){
+        $title = $req['title'];
+        $desc = $req['desc'];
+        $cut = date('Y-m-d H:i:s'); 
+        /*
+        $data = new DB::table("comp");
+        $data->title = $title;
+        $data->desc = $desc;
+        $data->status = "ok";
+        $data->insert_time = $cut;
+        $data->save();
+*/
+        DB::table("comp")->insert([
+            "title"=>$title,
+            "desc"=>$desc,
+            "status"=>"ok",
+            "insert_time"=>$cut
+        ]);
+        
+        return view("thanks_comp");
+    }
+
 }

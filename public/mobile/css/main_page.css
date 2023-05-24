@@ -1,36 +1,20 @@
-.android-large-1-child,
-.back-ground-2-icon {
+.background-1-icon,
+.black-1-icon {
   position: absolute;
+  width: 100%;
   top: 806px;
+  right: 0;
   left: 0;
-  width: 100vw;
-  height: 684px;
-}
-.android-large-1-child {
-  top: 0;
-  background-color: #0d0c0c;
-  width: 100vw;
-  height: 89px;
-}
-.android-large-1-item,
-.background-1-icon {
-  position: absolute;
-  top: 89px;
-  left: 0;
-  width: 100vw;
-}
-.background-1-icon {
-  height: 717px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 903px;
   object-fit: cover;
 }
-.android-large-1-item {
-  background-color: #161414;
-  height: 707px;
-  opacity: 0.5;
-  background-size: cover;
-  background-position: center;
+.background-1-icon {
+  top: 89px;
+  height: 717px;
 }
-.android-large-1-inner {
+.android-large-1-child {
   position: absolute;
   top: 252px;
   left: 135px;
@@ -51,20 +35,140 @@
   -webkit-text-stroke: 1px #000;
   mix-blend-mode: normal;
 }
-.image-1-icon,
+.group-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  height: 89px;
+}
 .opens {
   position: absolute;
+  width: calc(100% - 211px);
   top: 13px;
-}
-.image-1-icon {
-  left: 271px;
-  width: 45px;
-  height: 63px;
-  object-fit: cover;
-}
-.opens {
   left: 100px;
+  display: inline-block;
+}
+.rectangle-parent,
+.time-table-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.rectangle-parent {
+  height: 89px;
   font-size: 45px;
+}
+.time-table-child {
+  border-radius: var(--br-31xl);
+  background-color: var(--color-white);
+  height: 61px;
+}
+.mst-result {
+  position: absolute;
+  width: calc(100% - 41px);
+  top: 5px;
+  left: 24px;
+  display: inline-block;
+}
+.time-table {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 1104px;
+  right: 55px;
+  left: 49px;
+  height: 61px;
+  color: var(--color-gray-200);
+}
+
+.teacher-staff1 {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 10px;
+  left: 17px;
+  display: inline-block;
+}
+.teacher-staff {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 1358px;
+  right: 48px;
+  left: 56px;
+  height: 61px;
+  font-size: 35px;
+  color: var(--color-black);
+}
+
+
+
+.team {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 1558px;
+  right: 48px;
+  left: 56px;
+  height: 61px;
+  font-size: 35px;
+  color: var(--color-black);
+}
+.complaint {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 1458px;
+  right: 48px;
+  left: 56px;
+  height: 61px;
+  font-size: 35px;
+  color: var(--color-black);
+}
+
+
+
+.mst-result1 {
+  position: absolute;
+  width: calc(100% - 26px);
+  top: 5px;
+  left: 16px;
+  display: inline-block;
+}
+.attdance {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 1232px;
+  right: 48px;
+  left: 56px;
+  height: 61px;
+  color: var(--color-black);
+}
+.mst-result3 {
+  position: absolute;
+  width: calc(100% - 33px);
+  top: 5px;
+  left: 20px;
+  display: inline-block;
+}
+.mst-result2 {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 964px;
+  right: 52px;
+  left: 52px;
+  height: 61px;
+  color: var(--color-gray-100);
+}
+.intro-page2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  height: 717px;
+  opacity: 0.5;
 }
 .welcome {
   margin: 0;
@@ -86,121 +190,113 @@
 }
 .welcome-in-opens-container {
   position: absolute;
-  top: 159px;
+  width: calc(100% - 72px);
+  top: 70.99px;
   left: 36px;
+  display: inline-block;
+  height: 321.48px;
 }
-.time-table-child {
+.search-button-child {
   position: absolute;
+  width: 100%;
   top: 0;
+  right: 0;
   left: 0;
   border-radius: var(--br-31xl);
-  background-color:white;
-  color:black;
-  width: 256px;
-  height: 61px;
-}
-.mst-result,
-.time-table {
-  position: absolute;
-  top: 5px;
-  left: 24px;
-}
-.time-table {
-  top: 1104px;
-  left: 49px;
-  width: 256px;
-  height: 61px;
-}
-.attdance,
-.mst-result1 {
-  position: absolute;
-  top: 5px;
-  left: 16px;
-  color:black;
-}
-.attdance {
-  top: 1232px;
-  left: 56px;
-  width: 256px;
-  height: 61px;
-}
-
-.professor {
-  position:absolute;
-  top: 1332px;
-  left: 56px;
-  width: 256px;
-  height: 61px;
-  color:black;
-  font-size:25px;
-  text-align: center;
-}
-.mst-result2,
-.mst-result3 {
-  color:black;
-  position: absolute;
-  top: 5px;
-  left: 20px;
-}
-.mst-result2 {
-  top: 964px;
-  left: 52px;
-  width: 256px;
-  height: 61px;
-  color:black;
+  background-color: #5c28b0;
+  height: 61.86px;
 }
 .search {
   position: absolute;
-  top: 5px;
+  width: calc(100% - 118px);
+  top: 5.07px;
   left: 62px;
-  color:black;
+  display: inline-block;
+  height: 48.68px;
 }
-.search-button,
+.search-button {
+  position: absolute;
+  width: calc(100% - 104px);
+  top: 557.78px;
+  right: 55px;
+  left: 49px;
+  height: 61.86px;
+}
+.intro-page-parent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 717px;
+}
 .text-box {
   position: absolute;
-  top: 639px;
-  left: 49px;
-  width: 256px;
-  height: 61px;
-  border-radius: 60px;
+  width: calc(100% - 20px);
+  top: 445px;
+  right: 10px;
+  left: 10px;
+  font-size:25px;
+  height: 66px;
+  border-radius:50px;
 }
-.text-box {
-  top: 528px;
-  left: 15px;
-  background-color: #d9d9d9;
-  width: 322px;
-  height: 65px;
+.intro-page {
+  position: absolute;
+  width: 100%;
+  top: 89px;
+  right: 0;
+  left: 0;
+  height: 717px;
 }
-.rectangle-div,
 .select-options {
   position: absolute;
-  top: 850px;
+  width: calc(100% - 71px);
+  top: 780px;
   left: 36px;
+  display: inline-block;
 }
-.rectangle-div {
-  top: 1485px;
+.developed-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
   left: 0;
   background-color: #39225e;
-  width: 100vw;
-  height: 150px;
+  height: 156px;
 }
 .illuminati-team {
-  font-size: 25px;
+  font-size: 28px;
 }
 .developed-by-illuminati-container {
   position: absolute;
-  top: 1547px;
+  width: calc(100% - 90px);
+  top: 41.33px;
   left: 46px;
   display: inline-block;
-  width: 270px;
-  height: 172px;
-  font-size: 25px;
+  height: 114.67px;
+}
+.developed {
+  position: absolute;
+  width: 100%;
+  top: 1609px;
+  right: 0;
+  left: 0;
+  height: 156px;
+  font-size: 26px;
+}
+.logo-1-icon {
+  position: absolute;
+  top: -80px;
+  left: calc(50% + 78px);
+  width: 66px;
+  height: 72px;
+  object-fit: cover;
 }
 .android-large-1 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 1619px;
+  height: 1865px;
   overflow: hidden;
   text-align: center;
   font-size: var(--font-size-21xl);
@@ -208,14 +304,6 @@
   font-family: var(--font-inter);
 }
 
-
-.team {
-  position:absolute;
-  top: 1410px;
-  left: 56px;
-  width: 256px;
-  height: 61px;
-  color:black;
-  font-size:25px;
-  text-align: center;
+body {
+  background-color: #1e1e1e;
 }

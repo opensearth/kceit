@@ -3,56 +3,47 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="mobile/css/global.css" />
-    <link rel="stylesheet" href="mobile/css/teacher_detail_dir.css" />
+    <link rel="stylesheet" href="./mobile/css/global_teacher.css" />
+    <link rel="stylesheet" href="./mobile/css/teacher_detail_dir.css" />
     
-
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
     />
   </head>
-  <body>
+  <body style="background-color:#1e1e1e;">
     <div class="android-large-1">
-      <div class="title-box">
-        <div class="title-box-child"></div>
-        <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+      <div class="android-large-1-child"></div>
+      <div class="opens">OpenS</div>
+      <img class="image-12x-1-icon" alt="" src="./public/logo-1@2x.png" />
+      
 
-        <b class="opens">OpenS</b>
-      </div>
-      <div class="background-black">
- 
-        
-      </div>
-    </div>
+      <div class="android-large-1-item"></div>
+      <b class="professor-detail"> Developer Team</b>
 
-    <div class="teacher_data_title" style="color:white;position:absolute;top:120px;left:20vw;font-size: 30px;">
-      Team Member
-    </div>
-
-    <?php 
+      
+      <?php 
+    
     $loc = 180;
     for($i = 0 ; $i< count($results);$i++){
-    echo '<div class="teacher_detail" style="height:150px;width:80vw;color:white;position: absolute;top:'.$loc.'px;left:10vw;border-color: white;border-style: solid;">
-    <img  style="margin-left:100px;border-radius: 80px;" src="'.$results[$i]->img.'" width="100px" height="100px"></img>
-    <center>
-    <b style="color:white;font-size:25px;">'.$results[$i]->name.'</b><br>
-    </center>
-    </div>';
-
+    echo '
+    <div class="rectangle-parent" style="top:'.$loc.'px;color:white">
+        <div class="group-child"></div>
+        <div class="group-item"><img style="border-radius:50px;width:100%;height:100%;" src="'.$results[$i]->img.'"></img></div>
+        <b class="aryan-jaswal" style="font-size:14px">'.$results[$i]->name.'</b>
+        <b class="principal">OpenS</b>
+        <b class="b">+91-'.$results[$i]->phone.'</b>
+        <b class="aryanjaswaliitgmailcom">'.$results[$i]->email.'</b>
+        <b class="mtech2015"></b>
+        <b class="dbms-java">illuminati</b>
+        <b class="computer-science"></b>
+      </div>
+    ';
+    
     $loc = $loc + 180;
     }
-
-   
+    ?>
     
-    ?>
-
-<script>
-    let a = document.getElementsByClassName("background-black");
-    <?php
-    echo 'a[0].style.height = "'.$loc.'px";';
-    ?>
-    </script>
-
+</div>
   </body>
 </html>

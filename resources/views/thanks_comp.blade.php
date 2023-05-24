@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <link rel="stylesheet" href="/mobile/css/global.css" />
-    <link rel="stylesheet" href="/mobile/css/branch.css" />
+    <link rel="stylesheet" href="mobile/css/global.css" />
+    <link rel="stylesheet" href="mobile/css/branch.css" />
     
     <link
       rel="stylesheet"
@@ -19,16 +19,14 @@
 
       <div class="android-large-1-item"></div>
       <b class="choose-your-branch-container">
-        <p class="choose-your">Time Table</p>
-        <p class="choose-your"><?php
-echo $results[0]->Title;
-?>
-</p>
+        <p class="choose-your">Thanks For Your Feedback</p>
+        <br><br>
+        <p class="choose-your" style="font-size:20px">We will take take action ASAP</p>
+        <br><br>
+        <p style="font-size:12px">Anonymous Reporting<br>----</p>
+        
       </b>
-      <div class="android-large-1-inner">
-      <iframe style="margin-left:20px;height:450px;margin-left:-30px;" src="<?php echo $results[0]->link?>" width="100%" height="100%"></iframe>
-
-    </div>
+      
     </div>
   </body>
 </html>
