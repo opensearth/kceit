@@ -21,7 +21,7 @@
       <b class="choose-your-branch-container">
         <p class="choose-your">Thanks For Your Feedback</p>
         <br><br>
-        <p class="choose-your" style="font-size:20px">We will take take action ASAP</p>
+        <p class="choose-your" style="font-size:20px">We will take action ASAP</p>
         <br><br>
         <p style="font-size:12px">Anonymous Reporting<br>----</p>
         
