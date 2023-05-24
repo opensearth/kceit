@@ -33,9 +33,21 @@
 
     <?php 
     $loc = 180;
+    $emoji_link = ["https://cdn.discordapp.com/attachments/1110765721119633458/1110765900275142736/1.png",
+"https://cdn.discordapp.com/attachments/1110765721119633458/1110765900610670653/2.png",
+"https://cdn.discordapp.com/attachments/1110765721119633458/1110765900900094044/3.png",
+"https://cdn.discordapp.com/attachments/1110765721119633458/1110765901256597584/4.png",
+"https://cdn.discordapp.com/attachments/1110765721119633458/1110768154008887317/7.png",
+"https://cdn.discordapp.com/attachments/1110765721119633458/1110765901881561128/6.png"
+];
+
+
+
     for($i = 0 ; $i< count($results);$i++){
+    $emoji_rand = rand(0,5);
+    $emoji_img = $emoji_link[$emoji_rand];
     echo '<a href="/mst/'.$results[$i]->roll_no.'">"<div class="teacher_detail" style="height:150px;width:80vw;color:white;position: absolute;top:'.$loc.'px;left:10vw;border-color: white;border-style: solid;">
-    <img  style="border-radius: 80px;" src="'.$results[$i]->img.'" width="100px" height="100px"></img>
+    <img  style="border-radius: 80px;" src="'.$emoji_img.'" width="100px" height="100px"></img>
     <b style="position: relative; top:-70px;font-size:15px;">'.$results[$i]->name.'</b><br>
     <b style="position: relative; top:-60px;font-size:15px;left:30vw;color:grey">'.$results[$i]->roll_no.'</b><br>
     <b style="position: relative; top:-50px;font-size:8px;left:30vw;color:white;width:10px;"></b>
