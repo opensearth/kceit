@@ -48,8 +48,9 @@
 }
 .aryan-jaswal {
   top: 157px;
-  left: calc(50% - 140px);
-  font-size: var(--font-size-12xl);
+  left: calc(50% - 240px);
+  font-size: 25px;
+  text-align: center;
   width: 336px;
   height: 73px;
 }
