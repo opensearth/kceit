@@ -16,11 +16,13 @@
   </head>
   <body bgcolor="#1e1e1e">
     <div class="android-large-1">
+    <a href="/" style="text-decoration: none;color:white">
       <div class="title-box">
         <b class="opens">OpenS</b>
         <img class="logo-1-icon" alt="" src="./public/logo-1@2x.png" />
         
       </div>
+</a>
       <div class="background-black"></div>
       <b class="anonymous-feedback">Anonymous Complaint</b>
       <div class="box">

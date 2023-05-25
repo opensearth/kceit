@@ -22,12 +22,14 @@
         src=""
       />
 
+      <a href="/" style="text-decoration: none;color:white">
       <div class="android-large-1-child"></div>
       <div class="aryan"></div>
       <div class="rectangle-parent">
         <div class="group-child"></div>
         <b class="opens">OpenS</b>
       </div>
+</a>
 
       <a href="branch">
       <div class="time-table">

@@ -13,10 +13,11 @@
   </head>
   <body>
     <div class="android-large-2">
+    <a href="/" style="text-decoration: none;color:white">
       <div class="android-large-2-child"></div>
       <div class="opens">OpenS</div>
       <img class="image-12x-1-icon" alt="" src="/public/logo-1@2x.png" />
-
+</a>
       <div class="android-large-2-item"></div>
       <b class="mst-result">MST RESULT</b>
       

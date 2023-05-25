@@ -13,12 +13,14 @@
   </head>
   <body>
     <div class="android-large-1">
+    <a href="/" style="text-decoration: none;color:white">
       <div class="title-box">
         <div class="title-box-child"></div>
         <img class="image-1-icon" alt="" src="/public/image-1@2x.png" />
 
         <b class="opens">OpenS</b>
       </div>
+</a>
       <div class="background-black"></div>
 
       

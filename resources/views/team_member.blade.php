@@ -13,13 +13,15 @@
   </head>
   <body style="background-color:#1e1e1e;">
     <div class="android-large-1">
+    <a href="/" style="text-decoration: none;color:white">
       <div class="android-large-1-child"></div>
       <div class="opens">OpenS</div>
       <img class="image-12x-1-icon" alt="" src="./public/logo-1@2x.png" />
       
-
+</a>
       <div class="android-large-1-item"></div>
       <b class="professor-detail"> Developer Team</b>
+      
 
       
       <?php 
