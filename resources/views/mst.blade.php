@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/mobile/css/global_mst.css" />
     <link rel="stylesheet" href="/mobile/css/mst.css" />
     
+    
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -32,7 +33,7 @@
       <b class="mst-record">MST RECORD</b>
       <div class="android-large-1-inner">
 
-        <table style="color:white;font-size: 15px; border: 2px solid;border-image: linear-gradient(to right, #ff0000, #00ff00);border-image-slice: 1;border-collapse: separate;">
+        <table style="color:white;font-size: 10px; border: 1px solid;border-image: linear-gradient(to right, #ff0000, #00ff00);border-image-slice: 1;border-collapse: separate;">
           <tr>
             <th>Subject</th>
             <th>Course Code</th>
