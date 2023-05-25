@@ -54,7 +54,7 @@
                 <td>".$results2[$i]->subject."</td>
                 <td>".$results2[$i]->sub_code."</td>
                 <td>".$results2[$i]->marks_obt."</td>
-                <td>30</td>
+                <td>".$results2[$i]->total_marks."</td>
                 <td>".$pass_status."</td>
                 <th>-</th>
               </tr>";
