@@ -76,16 +76,45 @@
           <div class="intro-page-parent">
             <div class="intro-page2"></div>
             <b class="welcome-in-opens-container">
-              <p class="welcome">Welcome</p>
-              <p class="in">in</p>
+              <p id="welcome" class="welcome">Welcome</p>
+              <p id="in" class="in">in</p>
               <p class="in"></p>
-              <p class="opens1">OpenS</p>
-              <p class="kciet">
+              <p id="opens"class="opens1">OpenS</p>
+              <p id="kciet" class="kciet">
                 <span class="span"> </span>
                 <span>KCIET</span>
               </p>
             </b>
           </div>
+
+          <script>
+            var t1 = document.getElementById("welcome");
+            var t2 = document.getElementById("in");
+            var t3 = document.getElementById("opens");
+            var t4 = document.getElementById("kciet");
+            
+var texts = ["You", "You", "Welcome"]; // Array of texts to cycle through
+var texts2 = ["Can", "can", "in"]; // Array of texts to cycle through
+var texts3 = ["Check Your", "", "OpenS"]; // Array of texts to cycle through
+var texts4 = ["Result", "Complaint Anonymous", "KCEIT"]; // Array of texts to cycle through
+
+var index = 0; // Index to keep track of the current text
+
+function changeText() {
+  t1.textContent = texts[index]; // Update the text content
+  t2.textContent = texts2[index]; // Update the text content
+  t3.textContent = texts3[index]; // Update the text content
+  t4.textContent = texts4[index]; // Update the text content
+
+  index++; // Increment the index
+  if (index === texts.length) {
+    index = 0; // Reset the index if it reaches the end of the array
+  }
+}
+
+setInterval(changeText, 2000); // Call the changeText function every 2 seconds (2000 milliseconds)
+
+            </script>
           <div class="search-button">
             <div class="search-button-child"></div>
             <button class="search" onclick="search()" style="width:100%;height:100%;margin-left:-60px;font-size:47px;margin-top:-5px;background-color:white;border-radius:50px;">Search</button>
@@ -113,7 +142,7 @@
       let a  = document.getElementsByClassName("background-1-icon")
   
       let rand = Math.floor(Math.random()*6) + 1;
-      a[0].src = "images/bg_"+rand+".png"
+      a[0].src = "images/bg_"+rand+".png";
       }
       </script>
   
@@ -123,5 +152,52 @@
           document.location.href = "/search/"+a+"";
         }
         </script>
+        <button onclick="sound()" id="ab">Play Audio</button>
+        <audio autoplay id="myAudio" >
+  <source src="/audio/intro.mp3" type="audio/mp3">
+  <!-- Add additional <source> tags for different audio file formats -->
+  <!-- Provide alternative text if the browser doesn't support HTML5 audio -->
+  Your browser does not support the audio element.
+</audio>
+<div id="overlay" onclick="playAudio()"></div>
+<style>
+  #overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  z-index: 9999;
+  pointer-events: auto;
+}
+
+  </style>
+<script>
+function playAudio() {
+  document.getElementById("overlay").style.display = "none";
+  var audio = document.getElementById("myAudio");
+  audio.play();
+}
+
+document.addEventListener("click", function() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+});
+
+document.addEventListener("scroll", function() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+   
+});
+
+
+
+
+
+
+</script>
+
+
   </body>
 </html>
