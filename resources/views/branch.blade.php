@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
     <link rel="stylesheet" href="mobile/css/global.css" />
     <link rel="stylesheet" href="mobile/css/branch.css" />
     <meta name="description" content="Discover the KCEIT Portal, an innovative platform exclusively crafted for students at KC Group of Professional Institute. Accessible and user-friendly, KCEIT offers a multitude of features designed to streamline your academic journey. Stay informed about your MST results, track attendance, manage your timetable, explore the faculty directory, and even connect with our talented developer team.
@@ -26,7 +31,7 @@ Explore the power of KCEIT, the ultimate companion for KC Group students. Experi
 
 
 <title>Select Branch</title>
-<meta name="keywords" content="KCEIT , Select Branch ,Anonymous Complaint ,Direcoroty , Devloper Team , OpenS KCEIT , HPTU , hptu , kceit , opens, kceit portal , mst result , attendance , Faculty Direcotry , Developer Team">
+<meta name="keywords" content="KCEIT , Select Branch , Anonymous Complaint ,Direcoroty , Devloper Team , OpenS KCEIT , HPTU , hptu , kceit , opens, kceit portal , mst result , attendance , Faculty Direcotry , Developer Team">
 
 <meta property="og:image" content="https://kceit.web3o.cloud/images/seo/seo.png">
 

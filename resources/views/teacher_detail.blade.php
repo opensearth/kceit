@@ -2,6 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 
     
     <meta name="description" content="Discover the KCEIT Portal, an innovative platform exclusively crafted for students at KC Group of Professional Institute. Accessible and user-friendly, KCEIT offers a multitude of features designed to streamline your academic journey. Stay informed about your MST results, track attendance, manage your timetable, explore the faculty directory, and even connect with our talented developer team.
