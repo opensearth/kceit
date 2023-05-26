@@ -5,7 +5,15 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./mobile/css/global_teacher.css" />
     <link rel="stylesheet" href="./mobile/css/teacher_detail_dir.css" />
-    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRKZ5P2WP3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRKZ5P2WP3');
+</script>
     
     <link
       rel="stylesheet"

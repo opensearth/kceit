@@ -23,6 +23,7 @@ Explore the power of KCEIT, the ultimate companion for KC Group students. Experi
 
 " itemprop="description">
 
+
 <meta name="keywords" content="KCEIT , OpenS KCEIT , HPTU , hptu , kceit , opens, kceit portal , mst result , attendance , Faculty Direcotry , Developer Team">
 
 <meta property="og:image" content="https://kceit.web3o.cloud/images/seo/seo.png">
@@ -41,6 +42,15 @@ Explore the power of KCEIT, the ultimate companion for KC Group students. Experi
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
     />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LRKZ5P2WP3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LRKZ5P2WP3');
+</script>
   </head>
   <body bgcolor="black" onload="load()">
     <div class="android-large-1">
