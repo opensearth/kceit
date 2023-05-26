@@ -2,6 +2,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>Developer Team (illuminatie Team) Member</title>
+    <meta name="description" content="Welcome to the Illuminatie Team's web portal, where we revolutionize education through seamless attendance tracking, comprehensive faculty profiles, and efficient complaint management. With our user-friendly interface and cutting-edge technology, stay connected and informed about your educational journey like never before. Gain real-time insights into attendance records, ensuring a proactive approach towards academic progress. Explore detailed faculty information, including qualifications, expertise, and contact details, enabling seamless communication and collaboration. Additionally, our streamlined complaint management system ensures prompt resolution, fostering a supportive learning environment. Join the Illuminatie Team today and experience a new era of educational empowerment."
+
+ itemprop="description">
+
+
+<meta name="keywords" content="KCEIT , Devloper Team , OpenS KCEIT , HPTU , hptu , kceit , opens, kceit portal , mst result , attendance , Faculty Direcotry , Developer Team">
+
+<meta property="og:image" content="https://kceit.web3o.cloud/images/seo/seo.png">
+
+<meta property="og:site_name" content="kceit.web3o.cloud/team">
+
+<meta property="og:title" content="Developer Team">
+
+
+
+
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="./mobile/css/global_teacher.css" />
     <link rel="stylesheet" href="./mobile/css/teacher_detail_dir.css" />

@@ -5,7 +5,21 @@
     <meta name="viewport" content="initial-scale=1, width=device-width" />
     <link rel="stylesheet" href="/mobile/css/global_mst.css" />
     <link rel="stylesheet" href="/mobile/css/mst.css" />
-    
+    <meta name="description" content="MST Result : <?php echo $results[0]->roll_no ?> 
+
+
+" itemprop="description">
+
+
+<title>MST Result : <?php echo $results[0]->roll_no ?> </title>
+<meta name="keywords" content="KCEIT , MSt , Result ,Anonymous Complaint ,Direcoroty , Devloper Team , OpenS KCEIT , HPTU , hptu , kceit , opens, kceit portal , mst result , attendance , Faculty Direcotry , Developer Team">
+
+<meta property="og:image" content="https://kceit.web3o.cloud/images/seo/seo.png">
+
+<meta property="og:site_name" content="kceit.web3o.cloud">
+
+<meta property="og:title" content="MST Result : <?php echo $results[0]->name; echo $results[0]->roll_no; ?> ">
+
     
     <link
       rel="stylesheet"
